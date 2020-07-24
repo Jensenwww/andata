@@ -62,6 +62,8 @@ module apb_mux #(
   input                   SLV_PREADY [SLAVES],
   input                   SLV_PSLVERR[SLAVES]
 );
+  //uart slaves
+  
   //////////////////////////////////////////////////////////////////
   //
   // Constants
