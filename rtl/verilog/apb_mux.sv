@@ -59,7 +59,7 @@ module apb_mux #(
   
   input                   mst_rx_i,
   output                  mst_tx_o,
-  output                  mst_event_o
+  output                  mst_event_o,
   
 
   //To/from APB slaves
